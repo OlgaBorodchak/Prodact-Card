@@ -12,13 +12,18 @@ body {
     align-items: center;
 }
 
+main {
+    margin: 50px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    flex-basis: 600px;
+    max-width: 600px;
     box-sizing: border-box;
+    background-color:  hsl(0, 0%, 100%);
 }
 
 .product-image {
@@ -38,12 +43,11 @@ body {
 .text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-basis: 300px;
     box-sizing: border-box;
     padding: 35px;
     height: 450px;
-    background-color:  hsl(0, 0%, 100%);
 }
 
 .par-one {
@@ -105,9 +109,7 @@ del {
     padding-right: 10px;
 }
 
-
-@media all and (max-width: 800px) {
-
+@media all and (max-width: 600px) {
 
     .container {
         display: flex;
@@ -117,14 +119,20 @@ del {
         max-width: 100%;
         height: 100%;
     }
+
     .image{
         border-radius: 10px 10px 0px 0px;  
-        content: url(image-product-mobile.jpg);
-        width: 375px;
         object-fit: cover;
     }
-
+    
+    .par {
+        padding: 8px;
+    }
 }
+
+/* some ideas got from Alvin Johnson So, Hassia Issah */
+
+
 
 
 
