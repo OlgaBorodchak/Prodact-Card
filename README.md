@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/OlgaBorodchak/Product-preview-card-component.git)
+- Solution URL: [https://github.com/OlgaBorodchak/Prodact-Card.git]
 - Live Site URL: [Add live site URL here](https://olgaborodchak.github.io/Product-preview-card-component/)
 
 ## My process
