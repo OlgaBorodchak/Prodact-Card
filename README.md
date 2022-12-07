@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](../../../Documents/web%20development/product-preview-card-component-main/screenshot.jpg)(.screenshot.jpg)
+![Screenshot](https://github.com/OlgaBorodchak/Prodact-Card/blob/main/screenshot.jpg)(.screenshot.jpg)
 
 ### Links
 
