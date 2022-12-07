@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/OlgaBorodchak/Prodact-Card/blob/main/screenshot.jpg)(.screenshot.jpg)
+![https://github.com/OlgaBorodchak/Prodact-Card/blob/main/screenshot.jpg](.screenshot.jpg)
 
 ### Links
 
 - Solution URL: [https://github.com/OlgaBorodchak/Prodact-Card.git]
-- Live Site URL: [Add live site URL here](https://olgaborodchak.github.io/Product-preview-card-component/)
+- Live Site URL: [https://olgaborodchak.github.io/ProdactCard.io/]
 
 ## My process
 
