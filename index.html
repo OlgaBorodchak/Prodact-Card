@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="styles.css">
@@ -22,22 +22,23 @@
   </style>
 </head>
 <body>
-
+  <main>
     <div class="container">
-      <div class="product-image">
-        <img class="image" src="image-product-desktop.jpg" alt="">
-      </div>
+        <picture class="product-image">
+          <source srcset="image-product-desktop.jpg" media="(min-width: 600px)">
+          <img class="image" src="image-product-mobile.jpg" alt="CHANEL">
+        </picture>
       <div class="text">
-        <div>
+        <div class="par">
           <p class="par-one">Perfume</p>
         </div>
-        <div>
+        <div class="par">
           <h1 class="header">Gabrielle Essence Eau <br> De Parfum</h1>
         </div>
-        <div>
+        <div class="par">
           <p class="par-main">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
         </div>
-        <div>
+        <div class="par">
           <p><ins>$149.99</ins><del>$169.99</del></p>
         </div>
         <div class="cta">
@@ -45,13 +46,13 @@
         </div>
       </div>
     </div>
+  </main>
   
   
   
-  
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="mailto: olga.leonovna@gmail.com">Olga Borodchak</a>.
-  </div>
+    Coded by <a href="#">Olga Borodchak</a>.
+  </footer>
 </body>
 </html>
