@@ -5,12 +5,11 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-}
-
-.wrapper {
-    display: flex;
+    min-height:100vh; 
+    display:flex; 
+    flex-direction: column;
     justify-content: center;
-    padding: 200px;
+    align-items: center;
 }
 
 .container {
@@ -19,9 +18,7 @@ body {
     align-items: center;
     border-radius: 10px;
     flex-basis: 600px;
-    height: 450px;
     box-sizing: border-box;
-    background-color:  hsl(0, 0%, 100%);
 }
 
 .product-image {
@@ -46,6 +43,7 @@ body {
     box-sizing: border-box;
     padding: 35px;
     height: 450px;
+    background-color:  hsl(0, 0%, 100%);
 }
 
 .par-one {
@@ -110,12 +108,7 @@ del {
 
 @media all and (max-width: 800px) {
 
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-    
+
     .container {
         display: flex;
         flex-direction: column;
